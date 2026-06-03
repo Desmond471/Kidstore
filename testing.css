@@ -1,0 +1,63 @@
+header{
+    position: sticky;
+    top: 0;
+    background: white;
+    z-index: 1000;
+}
+
+nav a{
+    transition: 0.3s;
+}
+
+nav a:hover{
+    color: #ff5f7e;
+}
+
+
+
+
+
+
+.product-container{
+    display:flex;
+    gap:20px;
+    justify-content:center;
+    flex-wrap:wrap;
+}
+
+.product-card{
+    width:250px;
+    background:white;
+    padding:15px;
+    border-radius:10px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+    text-align:center;
+}
+
+.product-card img{
+    width:100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+html{
+    scroll-behavior:smooth;
+}
+
+button{
+    transition:0.3s;
+}
+
+button:hover{
+    transform:translateY(-3px);
+}
